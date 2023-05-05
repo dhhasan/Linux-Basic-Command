@@ -27,6 +27,10 @@ ls -l /tmp
 ls -id /tmp
 ls -n
 
+Some Extra ls commands
+ls -l dir1/ <long listing format> ls -l -a <long listing format> ls -l -all <long natation> ls -l -s <allocated size of each file> ls --size <allocated size of each file using long notation> ls -lsa <also print the size of the file in long listing format> ls -lsh <size of the files in human readable format> ls --human-readable -s <long notation>
+5
+Connect Connect with with with me on me on LinkedInLinkedInLinkedInLinkedIn LinkedIn ls -lr <reverse the order of sorting> ls -lX <search based on alphabets> ls -l -R <list sub directories recursively> ls -l -t <search by modification time> ls -l -x <list by lines> ls -u -l -t <list by last access time shows newest first>
 
 
 
