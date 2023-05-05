@@ -9,11 +9,24 @@ cd my_work/
 cd Desktop/my_work/
 cd-
 
-Command -Options and Arguments
+Command -Options and Arguments:
 ls 
 ls -l
 ls -l /var
 ls -a
 ls -lh
+ls -f
+ls -R
+ls -ltr
+ls -ltra
+ls -LS
+ls -LSa
+ls -ia
+ls --help
+ls -l /tmp
+ls -id /tmp
+ls -n
+
+
 
 
