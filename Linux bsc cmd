@@ -1,3 +1,17 @@
-Move command use 
+Move command use :
 mv file_name  directory_name 
 ex hasan  my_work
+
+Absolute Path:
+change directory
+ex cd Desktop/
+cd my_work/
+cd Desktop/my_work/
+cd-
+
+Command -Options and Arguments
+ls 
+ls -l
+ls -l /var
+ls -a
+ls -lh
