@@ -32,5 +32,10 @@ ls -l dir1/ <long listing format> ls -l -a <long listing format> ls -l -all <lon
 5
 Connect Connect with with with me on me on LinkedInLinkedInLinkedInLinkedIn LinkedIn ls -lr <reverse the order of sorting> ls -lX <search based on alphabets> ls -l -R <list sub directories recursively> ls -l -t <search by modification time> ls -l -x <list by lines> ls -u -l -t <list by last access time shows newest first>
 
+change directory:
+cd -
+cd --
+pwd 
+cd ..
 
 
