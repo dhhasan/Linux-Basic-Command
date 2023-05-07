@@ -56,4 +56,11 @@ cd --
 pwd 
 cd ..
 
-
+Date command:
+date
+date --date="05/07/23"
+date +%A
+date +%B
+date +%D
+date +%Y
+date +%Z
