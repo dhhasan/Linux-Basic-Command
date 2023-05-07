@@ -64,3 +64,22 @@ date +%B
 date +%D
 date +%Y
 date +%Z
+date --date='yesterday'
+
+cat command:
+cat homework            1st  crat file    2nd time read file
+cat >hello              creat with text
+cat >>hello             add new line old file
+
+
+
+
+
+
+
+
+
+
+
+
+
