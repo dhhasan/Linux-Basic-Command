@@ -67,9 +67,18 @@ date +%Z
 date --date='yesterday'
 
 cat command:
-cat homework            1st  crat file    2nd time read file
-cat >hello              creat with text
-cat >>hello             add new line old file
+cat homework             1st  crat file    2nd time read file
+cat >hello               creat with text
+cat >>hello              add new line old file
+cat hello > hello2        old file copy new file
+cat hello hello2 > combo    combination creat new file
+cat -n hello   or cat -b hello               show file line number
+cat -e hello             show $ in end every line
+cat > hello3 << EOF      everyline star pont <
+cat *                    show all file content
+cat weeks.txt | tac | cat | cat | tac
+
+
 
 
 
