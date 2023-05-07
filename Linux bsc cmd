@@ -77,6 +77,20 @@ cat -e hello             show $ in end every line
 cat > hello3 << EOF      everyline star pont <
 cat *                    show all file content
 cat weeks.txt | tac | cat | cat | tac
+eco this is  test file > test    creat test file with curson mark
+cat /etc/passwd | more
+cat /etc/passwd | less
+
+touch command:
+touch file
+touch file1 file2
+touch file_{1..5}
+ls
+ls-l
+touch -m file
+touch -c -t 05050808 file
+ls -l file
+
 
 
 
