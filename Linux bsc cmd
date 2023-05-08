@@ -90,6 +90,58 @@ ls-l
 touch -m file
 touch -c -t 05050808 file
 ls -l file
+Touch Command Options
+● -a, change the access time only.
+● -c, if the file does not exist, do not create it.
+● -d, update the access and modification times.
+● -m, change the modification time only.
+● -r, use the access and modification times of the file.
+● -t, creates a file using a specified time.
+
+mkdir command:
+mkdir shagor
+How to create parent directories
+cd foo/ 
+mkdir bar 
+cd bar/ 
+mkdir baz 
+cd ../..
+mkdir -p foo1/bar1/baz1    random crat directory in one in other.... single command use -p
+mkdir -m 777 foo2  file permission
+
+head command:
+head /etc/passwd
+head /etc/passwd /etc/yum.repos.d/amzn2-extras.repo
+head -n5 /etc/passwd
+head -5 /etc/passwd
+head -c32 /etc/passwd
+
+tail command:
+tail /etc/passwd
+tail /etc/passwd /etc/yum.repos.d/amzn2-extras.repo
+tail -n5 /etc/passwd
+tail -5 /etc/passwd
+tail -c32 /etc/passwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
