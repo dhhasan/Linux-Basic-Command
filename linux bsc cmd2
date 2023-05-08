@@ -1,1 +1,17 @@
+Wc command: word count in a file 
+wc -l hasan 
+wc -l: Prints the number of lines in a file.
+wc -w: Prints the number of words in a file.
+wc -c: Displays the count of bytes in a file.
+wc -m: Prints the count of characters from a file.
+wc -L: Prints only the length of the longest line in a file.
+
+file command:
+file /etc/passwd
+file -b /etc/passwd
+file /etc/passwd /etc/yum.repos.d/amzn2-extras.repo
+file -i /etcpasswd/
+-i -b /etcpasswd/
+file -i -b /dev/tty
+
 
