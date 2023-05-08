@@ -13,5 +13,87 @@ file /etc/passwd /etc/yum.repos.d/amzn2-extras.repo
 file -i /etcpasswd/
 -i -b /etcpasswd/
 file -i -b /dev/tty
+ Linux File System Hierarchy:
+ follow linux pdf file page 19.......
+ 
+ Absolute Path-name
+ cat /home/kt/abc.sql 
+ pwd /home/kr/abc 
+ cd.. **move one level up** 
+ pwd 
+ /home/kt
+ 
+ pwd 
+ /home/kr/abc 
+ cd../.. **move two level up** 
+ pwd 
+ /home
+ 
+ Managing Files using Command line tool:
+
+Copy file
+cp file1 file2
+cp file1 file2 file3 dir (5)
+Move file
+mv file1 file2 (1)
+mv file1 file2 file3 dir (4)
+Remove file
+rm file1
+rm -f file1 file2 file3 (5)
+Create directory
+mkdir dir
+mkdir -p par1/par2/dir (6)
+Copy directory
+cp -r dir1 dir2 (2)
+cp -r dir1 dir2 dir3 dir4 (4)
+Move directory
+mv dir1 dir2 (3)
+mv dir1 dir2 dir3 dir4 (4)
+Remove directory
+rm -r dir1
+rm -rf dir1 dir2 dir3 (5)
+
+Navigating man pages
+
+Command
+Spacebar Scroll forward (down) one screen
+PageDown Scroll forward (down) one screen
+PageUp Scroll backward (up) one screen
+DownArrow Scroll forward (down) one line
+UpArrow Scroll back (up) one line
+d Scroll forward (down) one half-screen
+u Scroll background (up) one half-screen
+/string Search forward (down) for string in the man page
+n Repeat previous search forward (down) in the man page
+N Repeat previous search background (up) in the man page
+g Go to the start of the man page.
+G Go to the end of the man page.
+q Exit man and return to the command shell prompt
+
+0
+stdin
+Standard input
+Keyboard
+Read only
+
+1
+stdout
+Standard output
+Terminal
+Write only
+
+2
+strderr
+Standard error
+Terminal
+Write only
+
+3+
+filename
+Other files
+none
+Read and/or Write
+ 
+ 
 
 
