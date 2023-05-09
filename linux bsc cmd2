@@ -149,11 +149,11 @@ cat /etc/passwd | grep user1
 Change User Home Directory
 cat /etc/passwd | grep user1 
 usermod -d /user1 user1 
-cat /etc/passwd | grep use
+cat /etc/passwd | grep user1
 
 Change User Primary Group
 id user1 
-usermod -g group1 user1 
+sudo usermod -g group1 user1 
 id user1
 
 Adding Group to an Existing User
@@ -168,20 +168,20 @@ id user1
 tail -n 3 /etc/group
 
 Change User Login Name
-usermod -l user1_admin user1 
+sudo usermod -l user1_admin user1 
 id user1_admin 
 cat /etc/passwd | grep user1_admin
 
 Lock User Account
 usermod -L user2 
-cat /etc/shadow | grep use
+cat /etc/shadow | grep user2
 
 Unlock User Account
-usermod -U user2 
+sudo usermod -U user2 
 cat /etc/shadow | grep user2
 
 Change User Shell
-usermod -s /bin/sh user2 
+sudo usermod -s /bin/sh user2 
 cat /etc/passwd | grep user2
 
 Change User ID (UID)
