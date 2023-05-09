@@ -141,4 +141,55 @@ groupadd -p grouppassword group4
 tail -n l /etc/gshadow 
 tail -n l /etc/group
 
+‘usermod’ command
+Adding Information to User Account
+usermod –c “this is user1” user1 
+cat /etc/passwd | grep user1
+
+Change User Home Directory
+cat /etc/passwd | grep user1 
+usermod -d /user1 user1 
+cat /etc/passwd | grep use
+
+Change User Primary Group
+id user1 
+usermod -g group1 user1 
+id user1
+
+Adding Group to an Existing User
+usermod -G group2 user1 
+id user1 
+cat /etc/group | grep group2
+
+Adding Supplementary and Primary Group to User
+usermod -aG group3 user1 
+usermod -aG group4 user1 
+id user1 
+tail -n 3 /etc/group
+
+Change User Login Name
+usermod -l user1_admin user1 
+id user1_admin 
+cat /etc/passwd | grep user1_admin
+
+Lock User Account
+usermod -L user2 
+cat /etc/shadow | grep use
+
+Unlock User Account
+usermod -U user2 
+cat /etc/shadow | grep user2
+
+Change User Shell
+usermod -s /bin/sh user2 
+cat /etc/passwd | grep user2
+
+Change User ID (UID)
+usermod -u 2222 user2 
+id user2 
+cat /etc /passwd | grep user2
+
+
+
+
 
