@@ -93,7 +93,52 @@ filename
 Other files
 none
 Read and/or Write
+
+Manage local users and groups:
+useradd user1      if you note creat root user then use sudo 
+id user1 
+passwd user1
+
+sudo adduser farhana
+
+Create a User with Different Home Directory
+useradd -d /user2home user2
+tail -n 3 /etc/passwd 
+ls -ld /user2/
+
+Create a User with Specific User ID
+useradd -u 2000 user3 
+tail -n 1 /etc/passwd 
+id user3
+
+Create a User with Specific Group ID
+useradd -g 10 user4 
+id user4
+
+Add a User to Multiple Groups
+useradd -G 1, 10, 20 user5 
+id user5 
+useradd -G bin, wheel, games user5
+
+Create a User with Account Expiry Date
+useradd -e 2022-02-05 user6 
+chage -l user6
+
+‘groupadd’ command
+groupadd group1 
+tail -n 1 /etc/group
  
+ Creating a Group with Specific GID
+ groupadd -g 3000 group2 
+ tail -n l /etc/group
  
+Creating a System Group
+groupadd -r group3 
+tail -n 1 /etc/group
+
+Creating a System Group with Password
+groupadd -p grouppassword group4 
+tail -n l /etc/gshadow 
+tail -n l /etc/group
 
 
