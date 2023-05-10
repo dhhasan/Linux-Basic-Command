@@ -189,6 +189,45 @@ usermod -u 2222 user2
 id user2 
 cat /etc /passwd | grep user2
 
+‘groupmod’ command
+groupmod –help
+
+‘userdel’ command
+userdel -f user8
+ls /home/
+
+With option userdel -r:
+ls /home/ 
+userdel -r user7 
+ls /home/
+
+‘groupdel’ command
+groupdel –help
+
+Deleting the group
+cat /etc/group | grep group4 
+groupdel group4
+
+Linux Chage Command to Set Password Ageing for User
+List the password ageing information of a user
+chage -l user2
+
+Setup password policy of a user
+sudo chage user2
+or
+chage -m 0 -M 90 -W 5 -I 90 -E 2020-08-30 user2 
+chage -l user2
+
+Ownership of Linux files
+
+
+
+
+
+
+
+
+
 
 
 
