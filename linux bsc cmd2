@@ -219,6 +219,30 @@ chage -m 0 -M 90 -W 5 -I 90 -E 2020-08-30 user2
 chage -l user2
 
 Ownership of Linux files
+Here, we have highlighted ‘rw-rw-r–’ and this weird looking code is the one that tells us about the permissions given to the owner, user group, and the world.
+Here, the first ‘-’ (-rw-rw-r–) indicate that we have selected a file.p
+Else, if it were a directory, d would have been shown.
+Where, (drwxrwxr-x) represents the directory.
+The characters are pretty easy to remember.
+r = read permission 
+w = write permission 
+x = execute permission 
+- = no permission
+
+Changing file/directory permissions with ‘chmod’ command
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
